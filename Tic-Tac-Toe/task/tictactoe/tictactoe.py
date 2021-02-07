@@ -31,9 +31,9 @@ def get_new_position(position, player):
 
 def print_position(position):
     print("-" * 9)
-    print("|", " ".join(list(position[0:3])), "|")
+    print("|", " ".join(list(position[:3])), "|")
     print("|", " ".join(list(position[3:6])), "|")
-    print("|", " ".join(list(position[6:9])), "|")
+    print("|", " ".join(list(position[6:])), "|")
     print("-" * 9)
 
 
